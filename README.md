@@ -15,7 +15,7 @@ After starting the program, the user can choose different options.
 First, the start coordinates of the search have to be entered. 
 ```bash
 Enter the start coordinates (the closest data point is found using Euclidean distance)
-Enter 'n' if you want to use predefined coordinates
+Enter 'n' to use predefined coordinates
 Latitude (Enter 'n' to skip):
 ```
 You can simply enter 'n' to skip this step and use predefined coordinates.
@@ -45,18 +45,20 @@ In the data folder three .txt files can be found. These represent the adjacency 
 
 These files contain sample data from Graz, Austria, but can be changed to everything as long as the files are formatted accordingly.
 
+
 ## Output
 The simplified view of the output that contains all the nodes and an approximation of the route is displayed.
 Next, a detailed view is displayed. Here, with the help of [staticmaps](https://pypi.org/project/py-staticmaps/) a map of the area with the routes drawn in it is shown.
 Both visualizations are displayed when executing the program and also saved automatically.
 Additionally, a file titled _prelist.json_ is created that just includes each node the its predecessor. This can be uses for other path finding purposes.
 
-### Simplified View: 
+Simplified View
 <img src="https://data.leoleo.at/img/result_simplified.png" height="500" />
-### Detailed View:
+
+Detailed View
 <img src="https://data.leoleo.at/img/result_detailed_plot.png" height="500" />
-### Detailed View - Zoomed In:
-<img src="https://data.leoleo.at/img/result_detailed_zoomed.png" height="500" />
+
+[Detailed View Zoomed In](https://data.leoleo.at/img/result_detailed_zoomed.png)
 
 
 ## Contributing
